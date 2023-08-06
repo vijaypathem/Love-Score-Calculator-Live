@@ -1,3 +1,92 @@
-.container {
+body {
   font-family: Arial;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff69b4;
+}
+
+p {
+  margin-left: 10px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff1493;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result h2 {
+  margin-bottom: 10px;
+  color: #ff69b4;
+}
+
+#loveScore {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff69b4;
+}
+
+#loveMeaning {
+  margin-top: 10px;
+}
+
+#result p:last-child {
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+}
+
+.hidden {
+  display: none;
 }
